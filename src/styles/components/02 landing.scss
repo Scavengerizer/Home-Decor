@@ -1,0 +1,49 @@
+.landing {
+  margin-left: 140px;
+  min-height: 950px;
+  .text_and_scroll {
+    margin-top: 150px;
+  }
+  .text {
+    span {
+      font-family: $Josh;
+      font-weight: 600;
+      font-size: 8.125rem;
+      line-height: 1.2;
+      letter-spacing: 2px;
+      color: $black;
+    }
+  }
+  .scroll {
+    margin-top: 10rem;
+    h6 {
+      font-family: $Josh;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+    .arrow {
+      border-color: $orange;
+    }
+  }
+  .image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    img {
+      height: auto;
+      width: 100%;
+    }
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: $cream;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+    }
+  }
+}

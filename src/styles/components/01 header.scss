@@ -1,0 +1,42 @@
+header {
+  margin-left: 150px;
+  .row {
+    justify-content: space-between;
+  }
+  .logo {
+    h1 {
+      color: $grey;
+      font-family: $Mont;
+      font-weight: 800;
+      font-size: 1.5rem;
+      letter-spacing: 4px;
+      span {
+        color: $orange;
+      }
+    }
+  }
+  .nav-links {
+    border-radius: 0 0 0 20px;
+    z-index: 2;
+    min-height: 107px;
+    background-color: $grey;
+    padding: 1em;
+    li {
+      margin-left: 4rem;
+    }
+    .link {
+      font-size: 0.75rem;
+      color: white;
+      font-family: $Josh;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+    .contact {
+      white-space: nowrap;
+      background-color: $orange;
+      padding: 1rem 1.5rem;
+      border-radius: 30px;
+      margin-right: 2rem;
+    }
+  }
+}

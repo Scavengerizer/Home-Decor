@@ -1,0 +1,215 @@
+@media (max-width: $desktop) {
+  .contacts {
+    .contact-items {
+      .row {
+        flex-direction: column;
+        .contact-item {
+          margin-top: 2em;
+          img {
+            margin-right: 2em;
+          }
+        }
+        .col {
+          flex-direction: row;
+        }
+      }
+    }
+  }
+}
+// include hamburger
+
+@media (max-width: $minidesktop) {
+  .landing {
+    margin: 0 auto;
+    .row {
+      justify-content: center;
+      align-items: center;
+    }
+    .image {
+      display: none;
+    }
+  }
+  .about {
+    margin-top: 100px;
+    .row {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .about-image {
+      width: 80%;
+    }
+    .about-text {
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 100px;
+      h1 {
+        text-align: center;
+      }
+      p {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .our-work-btn {
+        flex-direction: row;
+      }
+    }
+  }
+}
+
+@media (max-width: $bigtab) {
+  header {
+    margin: 0 auto;
+    .row {
+      justify-content: center;
+      align-items: center;
+    }
+    .nav-links {
+      display: none;
+    }
+    .logo {
+      margin-top: 30px;
+    }
+  }
+  .projects {
+    .project-heading {
+      margin-bottom: 50px;
+    }
+    .project-images {
+      max-width: 90%;
+      margin: 0 auto;
+      .row {
+        flex-direction: column;
+        img {
+          margin-top: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $tab) {
+  .landing {
+    min-height: 0;
+    margin-bottom: 200px;
+    .text {
+      span {
+        font-size: 6.125rem;
+      }
+    }
+  }
+  .about {
+    .about-text {
+      h1 {
+        font-size: 5rem;
+      }
+      p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+  .projects {
+    .project-heading {
+      margin: 0 auto;
+      margin-bottom: 50px;
+      img {
+        display: none;
+      }
+      h1 {
+        font-size: 5rem;
+        text-align: center;
+      }
+    }
+  }
+  .contacts {
+    .contact-text {
+      h1 {
+        font-size: 5rem;
+      }
+      h4 {
+        font-size: 1.3rem;
+      }
+    }
+    .contact-items {
+      .contact-item {
+        h4 {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+  footer {
+    .row {
+      flex-direction: column;
+    }
+    .footer-policies,
+    .footer-logo,
+    .footer-icons {
+      margin: 40px auto;
+    }
+    .footer-policies {
+      .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h3 {
+        margin: 10px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: $phone) {
+  .landing {
+    margin-bottom: 150px;
+    .text {
+      span {
+        font-size: 4.125rem;
+      }
+    }
+  }
+  .about {
+    .about-text {
+      h1 {
+        font-size: 4rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+    .our-work-btn {
+      a {
+        font-size: 0.75rem;
+      }
+      img {
+        width: 30px;
+      }
+    }
+  }
+  .projects {
+    .project-heading {
+      h1 {
+        font-size: 4rem;
+      }
+    }
+  }
+  .contacts {
+    .contact-text {
+      h1 {
+        font-size: 3rem;
+      }
+      h4 {
+        font-size: 1rem;
+      }
+    }
+    .contact-items {
+      .contact-item {
+        h4 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
